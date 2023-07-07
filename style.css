@@ -1,0 +1,254 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   
+   background: url(./assets/background\ image.svg);
+   background-repeat: no-repeat;
+   width: 1920px;
+   height: 1080px;
+   color: aliceblue;
+}
+
+.header_container {
+   width: 100%;
+   height: 86px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   z-index: 1;
+   
+}
+
+.header_elements {
+   width: 1720px;
+   display: flex;
+   position: relative;
+   margin-left: 100px;
+   margin-right: 100px;
+   justify-content: space-between;
+}
+
+.nav_title {
+   color: #A89AB3;
+   font-size: 20px;
+   font-family: 'bruno ace';
+   line-height: 20px;
+}
+
+.push {
+   margin-left: auto;
+   margin-right: 101px;
+}
+
+.navigation_list {
+   display: flex;
+   width: 296px;
+   justify-content: space-between;
+   list-style-type: none;
+}
+
+a.nav_link {
+   text-decoration: none;
+   color: #A89AB3;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-family: 'Orbitron';
+   line-height: 12px;
+}
+
+a.nav_link:hover {
+   text-decoration: underline;
+   color: bisque;
+   transition: 1s;
+}
+
+main{
+   width: 100%;
+   height: 994px;
+   display: flex;
+   position: relative; 
+   
+
+}
+
+div.container_items {
+   width: 1040px;
+   height: 578px;
+   margin-top: 165px;
+   display: flex;
+   margin-left: 440px;
+   border-radius: 10px;
+   border: 1px solid #A89AB3;
+   background: rgba(0, 0, 0, 0.25);
+   backdrop-filter: blur(10px);
+}
+
+.galaxy_image {
+   width: 709px;
+   height: 578px;
+   position: absolute;
+   margin-left: 331px;
+
+}
+
+.spaceman_image {
+   width: 123px;
+   height: 182px;
+   position: absolute;
+   margin-top: 187px;
+   margin-left: 695px;
+
+}
+
+.sign_in {
+   width: 265px;
+   height: 190px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   position: absolute;
+   margin-top: 111px;
+   margin-left: 77px;
+}
+
+.page_title {
+   font-size: 40px;
+   font-family: 'Orbitron';
+   line-height: 40px;
+}
+
+div.sign_in p {
+   font-size: 12px;
+   font-family: 'Nunito Sans';
+   line-height: 12px;
+   color: rgba(255, 255, 255, 0.59);
+   margin-top: 20px;
+
+}
+
+div.sign_in p:last-child {
+   color: rgba(237, 193, 159, 0.79);
+}
+
+.form_container {
+   width: 265px;
+   height: 129px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: 483px;
+   margin-left: 517px; 
+   z-index: 10; 
+}
+
+form.form_container input {
+   width: 100%;
+   height: 34px;
+   border-radius: 10px;
+   color: #A89AB3;
+   border: 1px solid rgba(168, 154, 179, 0.28);
+   background: rgba(0, 0, 0, 0.41);
+   padding: 11px;
+
+}
+
+div.btn_holder {
+   width: 100%;
+   height: 35px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn {
+   width: 119px;
+   height: 35px;
+   border-radius: 10px;
+   font-size: 10px;
+   font-family: 'Orbitron';
+   line-height: 12px;
+   cursor: pointer;
+}
+
+.btn_start {
+   border: 1px solid #FFDE6A;
+   background: #FC380C;
+   color: aliceblue;
+
+}
+
+.btn_watch_video {
+   border: 1px solid rgba(255, 67, 9, 0.63);
+   background: rgba(255, 67, 9, 0.00);
+   color: #FC380C;
+}
+
+div.background_elements {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+    z-index: 5; 
+   
+} 
+
+/* background images */
+
+.space_objects {
+   position: absolute;
+}
+
+.planet1blur {
+   margin-top:0;
+   margin-left: 0;
+}
+
+.big_planet {
+   margin-top: 421px;
+   margin-left: 1213px;
+}
+
+.planet2 {
+   margin-top: 541px;
+   margin-left: 373px;
+}
+
+.planet2blur {
+   margin-top: 0;
+   margin-left: 1699px;
+
+}
+
+.planet3 {
+   margin-left: 993px;
+   margin-top: 550px;
+}
+
+.planet4 {
+   margin-left: 1326px;
+   margin-top: 251px;
+}
+
+.planet5 {
+   margin-top: 151px;
+   margin-left: 1337px;
+   z-index: -1;
+}
+
+.star {
+   margin-top: 454px;
+   margin-left: 708px;
+   z-index: -2;
+}
+
+.sun_image {
+   margin-top: 47px;
+   margin-left: 1122px;
+}
