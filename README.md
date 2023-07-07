@@ -12,6 +12,4 @@ https://www.figma.com/file/A46ImpCtyknk01QcFWVjKb/Untitled?type=design&node-id=0
 
 4. Added a form with two buttons (start & watch video)
 
-5. Created a neu file mainpage.html which is linked to the Start button (this is where things get interesting)
-
-6. (needs a lot of work and improvement the navigation bar)
+5. (needs a lot of work and improvement the navigation bar)
